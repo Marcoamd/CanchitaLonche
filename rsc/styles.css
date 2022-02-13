@@ -1,0 +1,78 @@
+:root {
+    --color-green-500: #1CB84D;
+    --color-green-900: #0D3C1C;
+    --color-blue-gray-800: #343A40;
+    --fuente-primaria: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --xxl: 1400px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-primaria);
+    user-select: none;
+}
+
+/* ------------------ HEADER ------------------*/
+header{
+    background: var(--color-green-500);
+    box-shadow: 0 0 5px 0px var(--color-green-900);
+}
+
+nav {
+    max-width: var(--xxl);
+    margin-right: auto;
+    margin-left: auto;
+    height: 4.375rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mark-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.mark-wrap .logo{
+    height: 3.75rem;
+    margin-right: .3rem;
+}
+
+.mark-wrap .name{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--color-blue-gray-800);
+}
+.mark-wrap .name span{
+    color: white;
+}
+
+.menu-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.menu-wrap ul {
+    display: flex;
+}
+
+.menu-wrap ul li {
+    padding: 0.35rem .3rem;
+    margin: 0 .3rem;
+    font-size: 1.125rem;
+    list-style: none;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    border-radius: .25rem;
+    border-bottom: 3px rgba(255, 255, 255, 0) solid;
+}
+
+.menu-wrap ul li:hover {
+    border-bottom: 3px var(--color-blue-gray-800) solid;
+    color: var(--color-blue-gray-800);
+}
