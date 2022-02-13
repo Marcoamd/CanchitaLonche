@@ -1,5 +1,5 @@
 # CanchitaLonche
 
-## Tecnologías:
+## Technologies:
 - HTML 5
 - CSS

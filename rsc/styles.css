@@ -61,18 +61,19 @@ nav {
 }
 
 .menu-wrap ul li {
-    padding: 0.35rem .3rem;
-    margin: 0 .3rem;
+    padding: 0.35rem .4rem;
+    margin: 0 .2rem;
     font-size: 1.125rem;
     list-style: none;
     text-align: center;
     color: white;
     font-weight: 600;
     border-radius: .25rem;
-    border-bottom: 3px rgba(255, 255, 255, 0) solid;
+    border-top: 4px rgba(255, 255, 255, 0) solid;
+    border-bottom: 4px rgba(255, 255, 255, 0) solid;
 }
 
 .menu-wrap ul li:hover {
-    border-bottom: 3px var(--color-blue-gray-800) solid;
+    border-bottom: 4px var(--color-blue-gray-800) solid;
     color: var(--color-blue-gray-800);
 }
